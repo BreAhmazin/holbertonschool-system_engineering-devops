@@ -1,2 +1,2 @@
 #!/bin/bash
-gep -c "bin" /etc/passwd
+gep -c "bin" /etc/passwd | wc-1
