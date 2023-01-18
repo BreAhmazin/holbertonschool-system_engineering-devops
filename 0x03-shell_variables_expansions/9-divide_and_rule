@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv $((POWER=42784 DIVIDE=32))
+set $((POWER=42784 DIVIDE=32))
