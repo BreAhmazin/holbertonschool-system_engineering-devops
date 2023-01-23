@@ -1,16 +1,14 @@
 #!/usr/bin/env bash
-#While if elif else loop
+#While else elif if loops
 i=1
-while [ $i -le 10 ]
+while [ $i == 10 ]
 do
-	echo "Best School"
-	i=$(( i + 1 ))
 	if [ $i == 4 ]
 	then echo "bad luck"
-	elif [[ $i -le 9 && $i -gt 7 ]]
+	elif [ $i == 8 ]
 	then echo "good luck"
 	else
 	echo "Best School"
-	((i++))
 	fi
+	((i++))
 done
