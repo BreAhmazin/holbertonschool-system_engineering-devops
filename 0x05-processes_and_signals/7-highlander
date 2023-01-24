@@ -2,11 +2,8 @@
 # Script displays "To infinity and beyond"
 # Displays "I am Invincable
 # The 67-stop_me_now
-
 count=1
-
-#trap "echo I am invincible!!!" SIGTERM
-
+# trap "echo I am invincible!!!" SIGTERM
 while [ $count ]
 do
 	trap "echo I am invincible!!!" SIGTERM
